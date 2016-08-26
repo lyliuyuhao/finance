@@ -19,8 +19,7 @@ def get_stock_cn(list_location, stock_id):
 
 def main():
     a = get_stock_cn("sz", "002230")
-    b = json.dump(a)
-    print(b)
+    print(a)
 
 if __name__ == '__main__':
     sys.exit(int(main() or 0))
